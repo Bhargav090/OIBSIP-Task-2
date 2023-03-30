@@ -4,7 +4,7 @@
 }
 .body{
     background-color: black;
-    background:rgba(0, 0, 0, 0.9)url("images/startsmoving.gif");
+    background:rgba(0, 0, 0, 0.9)url("startsmoving.gif");
 }
 
 /* firstdiv */
