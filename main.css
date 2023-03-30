@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.body{
+    background-color: black;
+    background:rgba(0, 0, 0, 0.9)url("images/startsmoving.gif");
+}
+
+/* firstdiv */
+
+.firstdiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 4%;
+    width: auto;
+    height: 100vh;
+
+}
+
+.img1{
+    height: 45%;
+    width: 55%;
+    margin-top: 10%;
+    margin-right: 5%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px white;
+    animation: movement 1.5s ease-in-out;
+}
+.firsth1{
+    color: rgb(68, 168, 255);
+    font-weight: 600;
+    font-size: 2.1rem;
+    margin-top: 5%;
+    margin-left: 5%;
+    animation: mainh1 1s ease-in-out;
+}
+@keyframes mainh1 {
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
+@keyframes mainh4 {
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
+@keyframes movement {
+    from{
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.matterh4{
+    color: white;
+    margin-left: 5%;
+    letter-spacing: 1px;
+    line-height: 1.7rem;
+    animation: mainh4 1.6s ease-in;
+    font-size: 1.1rem;
+}
+.name1{
+    color: red;
+    font-weight: 700;
+}
+
+
+/* second div */
+
+.seconddiv{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+.part1{
+    margin: 4%;
+    margin-left: 2%;
+}
+.blackhole{
+    height: 45%;
+    width: 62%;
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 7%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px rgb(113, 108, 108);
+}
+.content2{
+    color: aliceblue;
+    line-height: 1.5rem;
+}
+.secondh1{
+    color: rgb(68, 168, 255);
+    font-weight: 800;
+
+}
+
+
+
+/* third div */
+.content3{
+    color: aliceblue;
+}
+.thirdh3{
+    line-height: 1.8rem;
+    margin: 5%;
+    margin-top: 3%;
+}
+.blackhole2{
+    height: 60%;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 8%;
+    border-radius: 20px;
+    box-shadow: 2px 0px 5px 5px rgb(113, 108, 108);
+}
+.srcc{
+
+    margin-left: 5%;
+}
+
+/* lastdiv */
+.lastdiv{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    text-align: right;
+    padding: 1%;
+    padding-right: 4%;
+}
